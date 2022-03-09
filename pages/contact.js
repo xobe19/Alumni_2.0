@@ -5,8 +5,8 @@ export default function Contact() {
 
         <div className="bg-white overflow-hidden relative lg:flex lg:items-center mx-5">
             <div className="w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-                <h2 className="text-7xl font-extrabold text-black">
-                    <span className="block">
+                <h2 className="text-4xl sm:text-7xl font-extrabold text-black">
+                    <span className="block ">
                         Stay a part of our Community!
                     </span>
                 </h2>
