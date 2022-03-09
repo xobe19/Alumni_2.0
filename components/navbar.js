@@ -33,10 +33,10 @@ export default function Navbar({ fixed }) {
                         }
                         id="example-navbar-danger"
                     >
-                        <ul className="flex flex-col lg:flex-row list-none lg:ml-auto sm:items-center">
+                        <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:items-center">
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 my-2 sm:m-0 flex items-center sm:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    className="px-3 py-2 my-2 lg:m-0 flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">News and Stories </span>
@@ -44,7 +44,7 @@ export default function Navbar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 my-2 sm:m-0 flex items-center sm:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    className="px-3 py-2 my-2 lg:m-0 flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Events</span>
@@ -52,7 +52,7 @@ export default function Navbar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 my-2 sm:m-0  flex items-center sm:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    className="px-3 py-2 my-2 lg:m-0  flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Alumni Engagement</span>
@@ -60,14 +60,14 @@ export default function Navbar({ fixed }) {
                             </li>
                             <li className="nav-item">
                                 <a
-                                    className="px-3 py-2 my-2 sm:m-0  flex items-center sm:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    className="px-3 py-2 my-2 lg:m-0  flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Illustrious Alumni </span>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <button type="button" className=" my-4 sm:ml-3 sm:my-0 py-2 px-4 bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-400 hoever:to-blue-500  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md   rounded-lg ">
+                                <button type="button" className=" my-4 lg:ml-3 lg:my-0 py-2 px-4 bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-400 hoever:to-blue-500  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md   rounded-lg ">
                                     Get Involved
                                 </button>
                             </li>

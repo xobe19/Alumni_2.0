@@ -1,0 +1,9 @@
+<head>
+<title> Error ! Page Not Found </title>
+</head>
+<body oncontextmenu="return false;" ondragstart="return false" onselectstart="return false" oncopy="return false;" onpaste="return false;" oncut="return false;">
+<br><br><br><br>
+<center>
+<img src="404.png"/>
+</center>
+</body>
