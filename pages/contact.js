@@ -1,5 +1,7 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Image from "next/image";
+import * as imgs from "../public";
+import rename from "../helper_functions/babel_img_rename";
 export default function Contact() {
     return <Fragment>
 
@@ -22,10 +24,10 @@ export default function Contact() {
                 </div>
             </div>
             <div className="flex items-center gap-8 p-8 lg:p-24">
-                <Image src="/college-overview.jpg" className="rounded-lg w-1/2" alt="Tree" />
+                <Image src={imgs[rename("/college-overview.jpg")]} className="rounded-lg w-1/2" alt="Tree" placeholder="blur"/>
                 <div>
-                    <Image src="/college_overview_2.jpg" className="rounded-lg mb-8" alt="Tree" />
-                    <Image src="/cricket_ground.png" className="rounded-lg" alt="Tree" />
+                    <Image src={imgs[rename("/college_overview_2.jpg")]} className="rounded-lg mb-8" alt="Tree" placeholder="blur"/>
+                    <Image src={imgs[rename("/cricket_ground.png")]} className="rounded-lg" alt="Tree" placeholder="blur"/>
                 </div>
             </div>
         </div>

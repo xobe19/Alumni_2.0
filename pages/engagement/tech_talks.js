@@ -3,6 +3,8 @@ import { Fragment } from "react/cjs/react.production.min";
 import tech_talks_data from "../../data/tech_talks";
 import image_gal_data from "../../data/image_gallery";
 import Image from "next/image";
+import * as imgs from "../../public";
+import rename from "../../helper_functions/babel_img_rename";
 export default function Bos() {
   return (
     <Fragment>
@@ -48,10 +50,11 @@ export default function Bos() {
                   <div className="w-full p-1 md:p-2">
                     <Image
                       alt="gallery"
-                      className="block object-cover object-center w-full h-full rounded-lg"
-                      src={data.imageUrl}
+                      className="block object-cover object-center w-full h-full rounded-lg transition-all"
+                      src={imgs[rename(data.imageUrl)]}
                       width={500}
                       height={300}
+                      placeholder="blur"
                     ></Image>
                   </div>
                 </div>

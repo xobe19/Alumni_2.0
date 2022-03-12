@@ -1,6 +1,8 @@
 import { Fragment } from "react/cjs/react.production.min";
 import aixcellence_data from "../../data/aixcellence";
 import Image from "next/image";
+import * as imgs from "../../public";
+import rename from "../../helper_functions/babel_img_rename";
 export default function Bos() {
   return (
     <Fragment>
@@ -47,7 +49,7 @@ export default function Bos() {
                     <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
-                      src={`/AIxcellence-${indx + 1}.jpg`}
+                      src={imgs[rename(`/AIxcellence-${indx + 1}.jpg`)]}
                     ></Image>
                   </div>
                 </div>

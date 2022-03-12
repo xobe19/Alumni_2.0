@@ -1,5 +1,7 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Image from "next/image";
+import * as imgs from "../../public";
+import rename from "../../helper_functions/babel_img_rename";
 export default function Mou() {
   return (
     <Fragment>
@@ -14,7 +16,7 @@ export default function Mou() {
           <a href="#" className="w-full block">
             <Image
               alt="blog photo"
-              src="/mdx.png"
+              src={imgs[rename("/mdx.png")]}
               className=" w-full object-cover"
             />
             <div className="bg-white  w-full p-4">
@@ -40,7 +42,7 @@ export default function Mou() {
           <a href="#" className="w-full block h-full">
             <Image
               alt="blog photo"
-              src="/mdx_mou.png"
+              src={imgs[rename("/mdx_mou.png")]}
               className=" w-full object-cover"
             />
             <div className="bg-white  w-full p-4">

@@ -12,10 +12,13 @@ export default function Navbar({ fixed }) {
                             className="text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white"
                             href="#"
                         >
-                            <Image src="/logo.png" width={50} height={50} className='inline-block align-middle'></Image>
-                            <span className="align-middle px-5">
+                            <span className="flex justify-center items-center">
+                            <Image src="/logo.png" width={50} height={50}></Image>
+                            <span className=" px-5">
 
                                 CVR Alumni
+                            </span>
+
                             </span>
                         </a>
                         <button

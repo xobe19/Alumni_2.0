@@ -1,6 +1,9 @@
 import { Fragment } from "react/cjs/react.production.min";
 import data from "../data/wallOfFame";
 import Image from "next/image";
+import * as imgs from "../public";
+import rename from "../helper_functions/babel_img_rename";
+console.log(rename(data[0].imageUrl))
 export default function WallOfFame() {
   return (
     <Fragment>
@@ -32,10 +35,11 @@ export default function WallOfFame() {
                     <div className="absolute -mt-20 w-full flex justify-center">
                       <div className="h-32 w-32">
                         <Image
-                          src={data.imageUrl}
+                          src={imgs[rename(data.imageUrl)]}
                           alt="Display Picture of Andres Berlin"
                           role="img"
                           className="rounded-full object-cover h-full w-full shadow-md"
+                          placeholder="blur"
                         />
                       </div>
                     </div>

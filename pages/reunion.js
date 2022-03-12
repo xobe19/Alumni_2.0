@@ -1,5 +1,7 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Image from 'next/image';
+import * as imgs from "../public";
+import rename from "../helper_functions/babel_img_rename";
 let dallas_data = ["/dallasinvite.jpg", "/dallas-group.jpg", "/dallas2.jpg"];
 let bay_area_data = [
   "/BayArea-Invite.jpeg",
@@ -32,7 +34,8 @@ export default function Reunion() {
                     <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
-                      src={data}
+                      src={imgs[rename(data)]}
+                      placeholder="blur"
                     ></Image>
                   </div>
                 </div>
@@ -59,7 +62,9 @@ export default function Reunion() {
                     <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
-                      src={data}
+                      src={imgs[rename(data)]}
+placeholder="blur"
+
                     ></Image>
                   </div>
                 </div>
@@ -87,7 +92,8 @@ export default function Reunion() {
                     <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
-                      src={data}
+                      src={imgs[rename(data)]}
+                      placeholder="blur"
                     ></Image>
                   </div>
                 </div>
@@ -114,7 +120,8 @@ export default function Reunion() {
                     <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
-                      src={data}
+                      src={imgs[rename(data)]}
+                      placeholder="blur"
                     ></Image>
                   </div>
                 </div>
