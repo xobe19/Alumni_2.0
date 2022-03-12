@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
@@ -12,7 +12,7 @@ export default function Navbar({ fixed }) {
                             className="text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white"
                             href="#"
                         >
-                            <img src="/logo.png" width={50} height={50} className='inline-block align-middle'></img>
+                            <Image src="/logo.png" width={50} height={50} className='inline-block align-middle'></Image>
                             <span className="align-middle px-5">
 
                                 CVR Alumni

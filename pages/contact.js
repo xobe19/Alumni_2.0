@@ -1,5 +1,5 @@
 import { Fragment } from "react/cjs/react.production.min";
-
+import Image from "next/image";
 export default function Contact() {
     return <Fragment>
 
@@ -22,10 +22,10 @@ export default function Contact() {
                 </div>
             </div>
             <div className="flex items-center gap-8 p-8 lg:p-24">
-                <img src="/college-overview.jpg" className="rounded-lg w-1/2" alt="Tree" />
+                <Image src="/college-overview.jpg" className="rounded-lg w-1/2" alt="Tree" />
                 <div>
-                    <img src="/college_overview_2.jpg" className="rounded-lg mb-8" alt="Tree" />
-                    <img src="/cricket_ground.png" className="rounded-lg" alt="Tree" />
+                    <Image src="/college_overview_2.jpg" className="rounded-lg mb-8" alt="Tree" />
+                    <Image src="/cricket_ground.png" className="rounded-lg" alt="Tree" />
                 </div>
             </div>
         </div>

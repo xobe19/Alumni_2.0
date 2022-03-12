@@ -1,5 +1,6 @@
 import { Fragment } from "react/cjs/react.production.min";
 import data from "../data/wallOfFame";
+import Image from "next/image";
 export default function WallOfFame() {
   return (
     <Fragment>
@@ -30,7 +31,7 @@ export default function WallOfFame() {
                   <div className="rounded overflow-hidden shadow-md bg-white">
                     <div className="absolute -mt-20 w-full flex justify-center">
                       <div className="h-32 w-32">
-                        <img
+                        <Image
                           src={data.imageUrl}
                           alt="Display Picture of Andres Berlin"
                           role="img"

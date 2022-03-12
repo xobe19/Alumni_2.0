@@ -2,6 +2,7 @@ import { data } from "autoprefixer";
 import { Fragment } from "react/cjs/react.production.min";
 import tech_talks_data from "../../data/tech_talks";
 import image_gal_data from "../../data/image_gallery";
+import Image from "next/image";
 export default function Bos() {
   return (
     <Fragment>
@@ -45,11 +46,13 @@ export default function Bos() {
               return (
                 <div className="flex flex-wrap sm:w-1/3" key={data.imageUrl}>
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
                       src={data.imageUrl}
-                    ></img>
+                      width={500}
+                      height={300}
+                    ></Image>
                   </div>
                 </div>
               );

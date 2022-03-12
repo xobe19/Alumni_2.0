@@ -1,4 +1,5 @@
 import { Fragment } from "react/cjs/react.production.min";
+import Image from "next/image";
 export default function Mou() {
   return (
     <Fragment>
@@ -11,7 +12,7 @@ export default function Mou() {
       <div className="p-5 bg-gray-100 flex flex-wrap min-h-screen items-start justify-center md:justify-start">
         <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer mb-5 md:mr-10 md:mb-0">
           <a href="#" className="w-full block">
-            <img
+            <Image
               alt="blog photo"
               src="/mdx.png"
               className=" w-full object-cover"
@@ -37,7 +38,7 @@ export default function Mou() {
         </div>
         <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer">
           <a href="#" className="w-full block h-full">
-            <img
+            <Image
               alt="blog photo"
               src="/mdx_mou.png"
               className=" w-full object-cover"

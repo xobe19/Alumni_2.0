@@ -1,4 +1,5 @@
 import { Fragment } from "react/cjs/react.production.min";
+import Image from 'next/image';
 let dallas_data = ["/dallasinvite.jpg", "/dallas-group.jpg", "/dallas2.jpg"];
 let bay_area_data = [
   "/BayArea-Invite.jpeg",
@@ -28,11 +29,11 @@ export default function Reunion() {
               return (
                 <div className="flex flex-wrap sm:w-1/3" key={data}>
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
                       src={data}
-                    ></img>
+                    ></Image>
                   </div>
                 </div>
               );
@@ -55,11 +56,11 @@ export default function Reunion() {
               return (
                 <div className="flex flex-wrap sm:w-1/3" key={data}>
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
                       src={data}
-                    ></img>
+                    ></Image>
                   </div>
                 </div>
               );
@@ -83,11 +84,11 @@ export default function Reunion() {
               return (
                 <div className="flex flex-wrap sm:w-1/3" key={data}>
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
                       src={data}
-                    ></img>
+                    ></Image>
                   </div>
                 </div>
               );
@@ -110,11 +111,11 @@ export default function Reunion() {
               return (
                 <div className="flex flex-wrap sm:w-1/3" key={data}>
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
                       src={data}
-                    ></img>
+                    ></Image>
                   </div>
                 </div>
               );

@@ -1,6 +1,6 @@
 import { Fragment } from "react/cjs/react.production.min";
 import aixcellence_data from "../../data/aixcellence";
-import image_gal_data from "../../data/image_gallery";
+import Image from "next/image";
 export default function Bos() {
   return (
     <Fragment>
@@ -44,11 +44,11 @@ export default function Bos() {
               return (
                 <div className="flex flex-wrap md:w-1/2" key={indx}>
                   <div className="w-full p-1 md:p-2">
-                    <img
+                    <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg"
                       src={`/AIxcellence-${indx + 1}.jpg`}
-                    ></img>
+                    ></Image>
                   </div>
                 </div>
               );
