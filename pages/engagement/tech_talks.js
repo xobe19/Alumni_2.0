@@ -1,0 +1,53 @@
+import { data } from "autoprefixer";
+import { Fragment } from "react/cjs/react.production.min";
+import tech_talks_data from "../../data/tech_talks";
+import image_gal_data from "../../data/image_gallery";
+export default function Bos() {
+return <Fragment>
+<div class="text-5xl font-extrabold flex items-center justify-center py-5">
+  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
+      Tech Talks &rarr; 
+  </span>
+</div>
+<div className=" p-5 lg:w-7/12 mx-auto">
+{
+tech_talks_data.map((data, indx) => {
+return <div className={"flex my-7 justify-start" + (indx&1 ? " lg:justify-start" : " lg:justify-start")} key={data.name}>
+<div className="bg-white font-semibold sm:text-lg p-10 border-l-gray-900 border-l-4">
+    {data.name} ({data.date})
+</div>
+<div className="p-10 text-white bg-black rounded-r-lg sm:text-xl font-bold">
+    {data.topic}
+</div>
+
+</div>
+})
+}
+</div>
+  <div className="py-4 flex justify-center">
+            <div className="w-10/12 border-t border-gray-300"></div>
+        </div>
+<div class="text-5xl font-extrabold flex items-center justify-center py-5 text-center">
+  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
+      Alumni Interaction Gallery &rarr; 
+  </span>
+</div>
+<section class="overflow-hidden text-gray-700 ">
+  <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+    <div class="flex flex-wrap -m-1 md:-m-2 justify-center items-center">
+        {image_gal_data.map((data) => {
+            return    <div class="flex flex-wrap sm:w-1/3">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={data.imageUrl}>
+                </img>
+        </div>
+      </div>
+
+        })}
+        
+    </div>
+  </div>
+</section>
+</Fragment>
+}

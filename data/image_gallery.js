@@ -1,0 +1,2 @@
+const data = JSON.parse("[{\"imageUrl\":\"/vrtalk.png\"},{\"imageUrl\":\"/dvtalk.png\"},{\"imageUrl\":\"/SLVtalk.png\"},{\"imageUrl\":\"/yash.png\"},{\"imageUrl\":\"/meghana.png\"},{\"imageUrl\":\"/raghu.png\"},{\"imageUrl\":\"/harsh.png\"},{\"imageUrl\":\"/dasika.png\"},{\"imageUrl\":\"/chavali.png\"},{\"imageUrl\":\"/pritish.png\"},{\"imageUrl\":\"/sang.png\"},{\"imageUrl\":\"/dashika2.png\"},{\"imageUrl\":\"/rajesh.png\"},{\"imageUrl\":\"/ecemeet.png\"},{\"imageUrl\":\"/bharatp.png\"},{\"imageUrl\":\"/varunab.png\"}]");
+export default data;

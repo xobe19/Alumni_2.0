@@ -12,7 +12,7 @@ export default function WallOfFame() {
             <div class="container mx-auto">
                 <div role="list" aria-label="Behind the scenes People " class="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
                     {data.map((data) => {
-                        return <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 max-w-sm lg:w-2/5 mx-16">
+                        return <div role="listitem" class="xl:w-1/3 w-full mx-0 my-24 sm:w-3/4 md:w-2/5 relative sm:mt-16 sm:mb-32 sm:mx-5  max-w-sm lg:w-2/5 ">
                             <div class="rounded overflow-hidden shadow-md bg-white">
                                 <div class="absolute -mt-20 w-full flex justify-center">
                                     <div class="h-32 w-32">
