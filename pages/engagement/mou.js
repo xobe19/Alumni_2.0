@@ -43,7 +43,8 @@ export default function Mou() {
             <Image
               alt="blog photo"
               src={imgs[rename("/mdx_mou.png")]}
-              className=" w-full object-cover"
+              className=" w-full object-cover transition-all"
+              placeholder="blur"
             />
             <div className="bg-white  w-full p-4">
               <p className="text-indigo-500 text-md font-medium">

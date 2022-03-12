@@ -33,7 +33,7 @@ export default function Reunion() {
                   <div className="w-full p-1 md:p-2">
                     <Image
                       alt="gallery"
-                      className="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg transition-all"
                       src={imgs[rename(data)]}
                       placeholder="blur"
                     ></Image>

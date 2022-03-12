@@ -48,8 +48,10 @@ export default function Bos() {
                   <div className="w-full p-1 md:p-2">
                     <Image
                       alt="gallery"
-                      className="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg transition-all"
                       src={imgs[rename(`/AIxcellence-${indx + 1}.jpg`)]}
+                      placeholder="blur"
+
                     ></Image>
                   </div>
                 </div>

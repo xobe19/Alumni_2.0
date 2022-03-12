@@ -38,7 +38,7 @@ export default function WallOfFame() {
                           src={imgs[rename(data.imageUrl)]}
                           alt="Display Picture of Andres Berlin"
                           role="img"
-                          className="rounded-full object-cover h-full w-full shadow-md"
+                          className="rounded-full object-cover h-full w-full shadow-md transition-all"
                           placeholder="blur"
                         />
                       </div>
