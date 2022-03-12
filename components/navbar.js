@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import * as imgs from "../public"
 export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
@@ -13,11 +14,11 @@ export default function Navbar({ fixed }) {
                             href="#"
                         >
                             <span className="flex justify-center items-center">
-                            <Image src="/logo.png" width={50} height={50}></Image>
-                            <span className=" px-5">
+                            <Image src={imgs["logo"]} width={50} height={50}></Image>
+                             <span className="px-5 font-light">
 
                                 CVR Alumni
-                            </span>
+                            </span> 
 
                             </span>
                         </a>
