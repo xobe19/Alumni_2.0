@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import * as imgs from "../public"
+import Link from "next/link";
+import Ddm from "./ddm";
 export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
@@ -9,7 +11,9 @@ export default function Navbar({ fixed }) {
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
 
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                        <a
+                        <Link href="/">               
+                          <a
+
                             className="text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white"
                             href="#"
                         >
@@ -22,6 +26,7 @@ export default function Navbar({ fixed }) {
 
                             </span>
                         </a>
+                        </Link>
                         <button
                             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
@@ -38,43 +43,52 @@ export default function Navbar({ fixed }) {
                         id="example-navbar-danger"
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:items-center">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a
                                     className="px-3 py-2 my-2 lg:m-0 flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">News and Stories </span>
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
+                                <Link href="/reunion">
                                 <a
                                     className="px-3 py-2 my-2 lg:m-0 flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Events</span>
                                 </a>
+                                </Link>
                             </li>
-                            <li className="nav-item">
-                                <a
-                                    className="px-3 py-2 my-2 lg:m-0  flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                                    href="#pablo"
-                                >
-                                    <span className="ml-2">Alumni Engagement</span>
-                                </a>
-                            </li>
-                            <li className="nav-item">
+  <li className="nav-item">
+      <Link href="/alumni">    
                                 <a
                                     className="px-3 py-2 my-2 lg:m-0  flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
                                     <span className="ml-2">Illustrious Alumni </span>
                                 </a>
+
+       </Link>
                             </li>
+                            <li className="nav-item">
+                                <a
+                                className="px-3 py-2 my-2 lg:m-0 flex items-center"
+                                    href="#pablo"
+                                >
+                                    <Ddm/>
+                                    {/* <span className="ml-2">Alumni Engagement</span> */}
+                                </a>
+                            </li>
+                          
+                          <a href="https://appalumni-4842d.web.app/" target="_blank" rel="noreferrer">
                             <li className="nav-item">
                                 <button type="button" className=" my-4 lg:ml-3 lg:my-0 py-2 px-4 bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-400 hoever:to-blue-500  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md   rounded-lg ">
                                     Get Involved
                                 </button>
                             </li>
+                          </a>
                         </ul>
                     </div>
                 </div>
