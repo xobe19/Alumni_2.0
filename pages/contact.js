@@ -37,7 +37,7 @@ export default function Contact() {
         </div>
         <div className="container mx-auto px-6 p-6 bg-white ">
             <div className="mb-16 text-left">
-                <h2 className="text-5xl  font-extrabold tracking-wide sm:text-6xl">
+                <h2 className="text-4xl  font-extrabold tracking-wide sm:text-6xl">
                     Ways you can give back &rarr;
                 </h2>
 
@@ -126,7 +126,7 @@ export default function Contact() {
 
             </div>
 
-            <div className="text-5xl md:text-6xl font-extrabold">
+            <div className="text-4xl sm:text-6xl font-extrabold">
                 <span>Contact Us &rarr; </span>
             </div>
             <div className="text-xl text-gray-500 mt-10">
