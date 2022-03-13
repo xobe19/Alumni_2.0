@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# CVR Alumni Website
 
-First, run the development server:
+Made a responsive website for our college Alumni section helping them connect better
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Tech Stack
+Nextjs, TailwindCSS, Babel, Tailwind UI 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Screenshots
+| Desktop/Laptop   |      Mobile      | 
+|----------|:-------------:|
+| ![image](https://user-images.githubusercontent.com/79440952/158053460-6fe8285c-9167-444c-913a-4fff11adfa8a.png)|  ![image](https://user-images.githubusercontent.com/79440952/158053567-c32b1fb6-3212-454d-902b-e98195088b8c.png)|
+| ![image](https://user-images.githubusercontent.com/79440952/158053609-0e697f7b-022f-446d-b6e8-d605cba69e79.png) | ![image](https://user-images.githubusercontent.com/79440952/158053624-4a4bf809-74c2-4779-8813-dbaa59242869.png) |
+| ![image](https://user-images.githubusercontent.com/79440952/158053646-be023d1e-db18-4d79-912c-34c9596fbc70.png) | ![image](https://user-images.githubusercontent.com/79440952/158053666-9db2057e-9d95-40c3-a582-98a93a8136cd.png) |
+| ![image](https://user-images.githubusercontent.com/79440952/158053683-c8fd0451-d39a-4326-afc5-7f012d778c09.png) | ![image](https://user-images.githubusercontent.com/79440952/158053703-065ed937-56b8-4521-9912-8f7c41b6148b.png) |
+| ![image](https://user-images.githubusercontent.com/79440952/158053717-9ebe07a5-6158-41db-b4a3-8878d3c6b564.png) | ![image](https://user-images.githubusercontent.com/79440952/158053730-21974c73-467d-477c-843a-9ae1399fd011.png) |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+
+
+
+
+## Features
+
+- Dynamic Linking
+- Next.js Image Optimization & Compression
+- Blur Image Preview
+- Top Loading Bar while switching routes
