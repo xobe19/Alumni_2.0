@@ -7,7 +7,11 @@ import NextNProgress from 'nextjs-progressbar'
 function MyApp({ Component, pageProps }) {
 console.log(pageProps);
   return <Fragment>
-    <Head> <title> CVR Alumni </title> <Head>
+    <Head> 
+    <title>
+    CVR Alumni 
+      </title>
+  </Head>
     <div className='bg-white'>
     <Script src="https://kit.fontawesome.com/ce6e920b0f.js"></Script>
 <NextNProgress height={3} color="cyan" />
