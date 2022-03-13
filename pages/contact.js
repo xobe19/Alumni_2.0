@@ -22,10 +22,12 @@ export default function Contact() {
 </div>
                 <div className="lg:mt-0 lg:flex-shrink-0">
                     <div className="mt-12 inline-flex rounded-md shadow">
-                        <a href="https://appalumni-4842d.web.app/" target="_blank" rel="noopener noreferrer"></a>
+                        <a href="https://appalumni-4842d.web.app/" target="_blank" rel="noopener noreferrer">
+
                         <button type="button" className="py-2 px-4  bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-400 hoever:to-blue-500  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md   rounded-lg ">
                             Register &rarr;
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>

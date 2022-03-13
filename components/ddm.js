@@ -46,23 +46,7 @@ export default function Example() {
                 </Link>
               )}
             </Menu.Item>
-   <Menu.Item>
-              {({ active }) => (
-                <Link href="/engagement/campus_drives">
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-white text-black' : 'text-white',
-
-                    'block px-4 py-2 text-sm hover:bg-white hover:text-black transition-all'
-                  )}
-                >
-                  Campus Drives
-                </a>
-                </Link>
-              )}
-            </Menu.Item>
-   <Menu.Item>
+     <Menu.Item>
               {({ active }) => (
                 <Link href="/engagement/exhibits">
                 <a
@@ -74,6 +58,21 @@ export default function Example() {
                   )}
                 >
                   Exhibits
+                </a>
+                </Link>
+              )}
+            </Menu.Item>
+   <Menu.Item>
+              {({ active }) => (
+                <Link href="/engagement/tech_talks">
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? 'bg-white text-black' : 'text-white',
+                    'block px-4 py-2 text-sm hover:bg-white hover:text-black transition-all'
+                  )}
+                >
+                  Tech Talks
                 </a>
                 </Link>
               )}
@@ -109,17 +108,19 @@ export default function Example() {
                 </Link>
               )}
             </Menu.Item>
-   <Menu.Item>
+
+ <Menu.Item>
               {({ active }) => (
-                <Link href="/engagement/tech_talks">
+                <Link href="/engagement/campus_drives">
                 <a
                   href="#"
                   className={classNames(
                     active ? 'bg-white text-black' : 'text-white',
+
                     'block px-4 py-2 text-sm hover:bg-white hover:text-black transition-all'
                   )}
                 >
-                  Tech Talks
+                  Campus Drives
                 </a>
                 </Link>
               )}
