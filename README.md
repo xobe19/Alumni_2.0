@@ -11,6 +11,12 @@ Nextjs, TailwindCSS, Babel, Tailwind UI
 
 
 
+## Features
+
+- Dynamic Linking
+- Next.js Image Optimization & Compression
+- Blur Image Preview
+- Top Loading Bar while switching routes
 
 
 
@@ -31,14 +37,18 @@ Nextjs, TailwindCSS, Babel, Tailwind UI
 
 
 
+## Deployment
+
+To deploy this project run
+
+```bash
+  npx next build && npx next start
+```
+
+
+## Builds Live Currently: 
+
+The website is currently live on [alumni-2-0.vercel.app](https://alumni-2-0.vercel.app)
 
 
 
-
-
-## Features
-
-- Dynamic Linking
-- Next.js Image Optimization & Compression
-- Blur Image Preview
-- Top Loading Bar while switching routes
