@@ -15,26 +15,26 @@ export default function Contact() {
                 <p className="text-md mt-4 text-gray-400 text-2xl">
                     Join the CVR Alumni Association and help craft our next batch of global leaders.
                 </p>
+
+<div className="block sm:hidden mt-10">
+
+                <Image src={imgs[rename("/college-overview.jpg")]} className=" rounded-lg sm:w-1/2 transition-all" alt="Tree" placeholder="blur"/>
+</div>
                 <div className="lg:mt-0 lg:flex-shrink-0">
                     <div className="mt-12 inline-flex rounded-md shadow">
+                        <a href="https://appalumni-4842d.web.app/" target="_blank" rel="noopener noreferrer"></a>
                         <button type="button" className="py-2 px-4  bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-400 hoever:to-blue-500  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md   rounded-lg ">
                             Register &rarr;
                         </button>
                     </div>
                 </div>
             </div>
-            <div className="flex items-center gap-8 sm:p-8 lg:p-24">
-                <div className="rounded-lg overflow-hidden">
+            <div className=" items-center gap-8 sm:p-8 lg:p-24 hidden sm:flex">
                 <Image src={imgs[rename("/college-overview.jpg")]} className="rounded-lg sm:w-1/2 transition-all" alt="Tree" placeholder="blur"/>
-                </div>
-                <div>
+                <div className="hidden sm:block">
 
-                <div className="rounded-lg overflow-hidden">
                     <Image src={imgs[rename("/college_overview_2.jpg")]} className="rounded-lg mb-8 transition-all" alt="Tree" placeholder="blur"/>
-</div>
-                <div className="rounded-lg overflow-hidden">
                     <Image src={imgs[rename("/cricket_ground.png")]} className="rounded-lg transition-all" alt="Tree" placeholder="blur"/>
-                    </div>
                 </div>
             </div>
         </div>

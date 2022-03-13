@@ -1,15 +1,15 @@
 import { data } from "autoprefixer";
 import { Fragment } from "react/cjs/react.production.min";
 import fdp_data from "../../data/fdp";
-export default function Bos() {
+export default function Fdp() {
   return (
     <Fragment>
-      <div className="text-5xl font-extrabold flex items-center justify-center py-5">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
+      <div className="text-5xl font-extrabold flex items-center justify-center py-5 break-words">
+        <span className="px-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
           FDP&apos;s conducted by the Alumni &rarr;
         </span>
       </div>
-      <div className=" p-5 lg:w-7/12 mx-auto">
+      <div className=" p-5 lg:w-7/12 mx-auto overflow-hidden">
         {fdp_data.map((data, indx) => {
           return (
             <div

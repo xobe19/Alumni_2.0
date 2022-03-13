@@ -11,7 +11,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex justify-center items-center w-full rounded-md lg:text-xs uppercase leading-snug  shadow-sm px-2 py-2 bg-gray-900 text-sm font-bold text-white  hover:opacity-75">
+        <Menu.Button className="inline-flex justify-center items-center w-full rounded-md lg:text-xs uppercase leading-snug  shadow-sm px-2 py-2 bg-gray-900  font-bold text-white  hover:opacity-75">
           <span >
           Engagement
           </span>
@@ -29,7 +29,7 @@ export default function Example() {
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items className="origin-top-right absolute left-0 mt-2 w-56 z-20 rounded-md shadow-lg bg-gray-900  ring-1 ring-black ring-opacity-5 focus:outline-none lg:text-xs uppercase font-bold leading-snug">
-          <div className="py-1">
+          <div className="py-2 sm:py-1">
 
             <Menu.Item>
               {({ active }) => (

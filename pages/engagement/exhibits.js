@@ -7,7 +7,7 @@ export default function Bos() {
   return (
     <Fragment>
       <div className="text-5xl font-extrabold flex items-center justify-center py-5">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-center">
+        <span className="px-2  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-center">
           Product Exhibits By Alumni &rarr;
         </span>
       </div>
