@@ -47,7 +47,7 @@ export default function Bos() {
             {image_gal_data.map((data) => {
               return (
                 <div className="flex flex-wrap sm:w-1/3" key={data.imageUrl}>
-                  <div className="w-full p-1 md:p-2">
+                  <div className="w-full p-1 md:p-2 rounded-lg overflow-hidden">
                     <Image
                       alt="gallery"
                       className="block object-cover object-center w-full h-full rounded-lg transition-all"

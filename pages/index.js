@@ -90,7 +90,7 @@ CVR College of Engineering has been a place where the boundaries between teacher
                 >
                   <div className="rounded overflow-hidden shadow-md bg-white">
                     <div className="absolute -mt-20 w-full flex justify-center">
-                      <div className="h-32 w-32">
+                      <div className="h-32 w-32 rounded-full overflow-hidden">
                         <Image
 
                           src={imgs[rename(data.imageUrl)]}

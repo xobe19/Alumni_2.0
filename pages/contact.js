@@ -24,10 +24,17 @@ export default function Contact() {
                 </div>
             </div>
             <div className="flex items-center gap-8 sm:p-8 lg:p-24">
+                <div className="rounded-lg overflow-hidden">
                 <Image src={imgs[rename("/college-overview.jpg")]} className="rounded-lg sm:w-1/2 transition-all" alt="Tree" placeholder="blur"/>
+                </div>
                 <div>
+
+                <div className="rounded-lg overflow-hidden">
                     <Image src={imgs[rename("/college_overview_2.jpg")]} className="rounded-lg mb-8 transition-all" alt="Tree" placeholder="blur"/>
+</div>
+                <div className="rounded-lg overflow-hidden">
                     <Image src={imgs[rename("/cricket_ground.png")]} className="rounded-lg transition-all" alt="Tree" placeholder="blur"/>
+                    </div>
                 </div>
             </div>
         </div>
