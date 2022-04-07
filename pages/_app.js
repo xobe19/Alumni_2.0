@@ -4,6 +4,7 @@ import { Fragment } from 'react/cjs/react.production.min'
 import Script from 'next/script'
 import Head from 'next/head'
 import NextNProgress from 'nextjs-progressbar'
+import ScrollToTop from 'react-scroll-to-top'
 function MyApp({ Component, pageProps }) {
 console.log(pageProps);
   return <Fragment>
@@ -17,6 +18,7 @@ console.log(pageProps);
 <NextNProgress height={3} color="cyan" />
     <Navbar />
     <Component {...pageProps} />
+   <ScrollToTop smooth style={{width: "auto", height: "auto", padding: "7px"}}/> 
     </div>
   </Fragment>
 }
