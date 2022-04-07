@@ -3,6 +3,7 @@ import Image from "next/image";
 import * as imgs from "../public"
 import Link from "next/link";
 import Ddm from "./ddm";
+import Ddm2 from "./ddm_reunion";
 export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
@@ -43,7 +44,18 @@ export default function Navbar({ fixed }) {
                         id="example-navbar-danger"
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:items-center">
-                         
+                           <li className="nav-item"
+
+                            onClick={() => setNavbarOpen(!navbarOpen)}
+                             >
+                                <a
+                                className="px-3 py-0 my-2 lg:m-0 flex items-center"
+                                    href="#pablo"
+                                >
+                                    <Ddm2/>
+                                    {/* <span className="ml-2">Alumni Engagement</span> */}
+                                </a>
+                            </li>
                             <li className="nav-item"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                             >
@@ -64,7 +76,7 @@ export default function Navbar({ fixed }) {
                                     className="px-3 py-2 my-2 lg:m-0  flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#pablo"
                                 >
-                                    <span className="ml-2">Illustrious Alumni </span>
+                                    <span className="ml-2"> Wall of Fame </span>
                                 </a>
 
        </Link>

@@ -14,7 +14,7 @@ export default function Bos() {
             <div
               className={
                 "flex my-7 justify-center" +
-                (indx & 1 ? " lg:justify-end" : " lg:justify-start")
+                (indx & 1 ? " lg:justify-start" : " lg:justify-start")
               }
               key={data.name}
             >

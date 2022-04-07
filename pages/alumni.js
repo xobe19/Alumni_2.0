@@ -1,10 +1,31 @@
-import { Fragment } from "react/cjs/react.production.min";
+import { Fragment, useState } from "react";
 import data from "../data/wallOfFame";
 import Image from "next/image";
 import * as imgs from "../public";
 import rename from "../helper_functions/babel_img_rename";
+
 console.log(rename(data[0].imageUrl))
 export default function WallOfFame() {
+let [currentIndices, setCurrentIndices] = useState([0,1,2]);
+let dat = [];
+for(let i = currentIndices[0]; i <= Math.min(data.length-1, currentIndices[2]); i++) {
+  dat.push(data[i]);
+}
+function canNext() {
+return !(currentIndices.includes(data.length-1));
+}
+function canPrev() {
+return !(currentIndices.includes(0));
+}
+
+function moveNext() {
+  setCurrentIndices(currentIndices.map((e) =>e+3));
+}
+function movePrev() {
+  setCurrentIndices(currentIndices.map((e)=>e-3));
+}
+
+
   return (
     <Fragment>
       <div className="container flex justify-center mx-auto pt-16">
@@ -24,7 +45,7 @@ export default function WallOfFame() {
             aria-label="Behind the scenes People "
             className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around"
           >
-            {data.map((data) => {
+            {dat.map((data) => {
               return (
                 <div
                   role="listitem"
@@ -60,6 +81,20 @@ export default function WallOfFame() {
             })}
           </div>
         </div>
+      </div>
+      <div>
+   {canPrev() ? 
+
+<button onClick={() => movePrev()}>Prev</button>
+:
+<></>
+   } 
+ {canNext() ? 
+
+<button onClick={() => moveNext()}>Next</button>
+:
+<></>
+   } 
       </div>
     </Fragment>
   );
