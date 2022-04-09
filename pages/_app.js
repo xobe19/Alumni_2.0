@@ -23,7 +23,14 @@ console.log(pageProps);
     <Component {...pageProps} />
    <ScrollToTop smooth style={{width: "auto", height: "auto", padding: "7px"}}/> 
     </div>
-  </Fragment>) : (<Component {...pageProps} />)
+  </Fragment>) : (
+ <Fragment>
+
+   <ScrollToTop smooth style={{width: "auto", height: "auto", padding: "7px"}}/> 
+   <Component {...pageProps} />
+ </Fragment> 
+
+  )
 }
 
 export default MyApp
