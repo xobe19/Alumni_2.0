@@ -41,7 +41,7 @@ function movePrev() {
       <div className="flex  w-full justify-center items-center bg-gray-100">
            {canPrev() ? 
 
-<button onClick={() => movePrev()} className="h-6 border-2 border-solid border-gray-200 px-4 py-12 flex justify-center items-center text-xl hover:text-white hover:bg-black transition-all"><i class="fa-solid fa-angle-left"></i></button>
+<button onClick={() => movePrev()} className="h-6 border-2 border-solid border-gray-200 px-4 py-12 flex justify-center items-center text-xl hover:text-white hover:bg-black transition-all"><i className="fa-solid fa-angle-left"></i></button>
 :
 <></>
    } 
@@ -93,7 +93,7 @@ function movePrev() {
     
 {canNext() ? 
 
-<button onClick={() => moveNext()} className="h-6 border-2 border-solid border-gray-200 px-4 py-12 flex justify-center items-center text-xl hover:text-white hover:bg-black transition-all"><i class="fa-solid fa-angle-right"></i></button>
+<button onClick={() => moveNext()} className="h-6 border-2 border-solid border-gray-200 px-4 py-12 flex justify-center items-center text-xl hover:text-white hover:bg-black transition-all"><i className="fa-solid fa-angle-right"></i></button>
 :
 <></>
    } 
