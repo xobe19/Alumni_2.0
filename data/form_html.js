@@ -128,6 +128,29 @@ const form_html = `
  
   </style>
 <div background id="body">
+<div class="wpb_wrapper" style="color: white; text-align: center; font-size: 20px;">
+			<p>Hey There !!!</p>
+<p>It’s said that our lives are basically made up of memories, memories that stir emotions, Invoke nostalgia, melancholy, Happiness, and Joy&#8230;</p>
+<p>I have been witness to this all,<br />
+To the genesis of those magical moments,<br />
+Of our journey ..!</p>
+<p>Every brick, mortar, and piece of wood<br />
+Carry in them vivid stories of you, of me and our association.</p>
+<p>I am a piece of you, you are a piece of me</p>
+<p>I am CVRCE …</p>
+<p>20 years ago I rose from the rubble, built into an institution,<br />
+Standing strong through changing weathers and the test of times,<br />
+I am at the forefront of academic excellence,<br />
+Delivering success and Innovation…</p>
+<p>All of this, would not have been possible without you,<br />
+You have made this journey a beautiful one to remember<br />
+You took that leap of faith with me to carry you through the tide of the most important years of your life.</p>
+<p>And this success, I wish to share with you, my friend …</p>
+<p>As I celebrate my 20th Birthday, I would be glad to have you around,<br />
+Let’s share some stories,<br />
+Let’s take that walk down the memory lane<br />
+And let’s make this group a vibrant one ….</p>
+		</div>
     <div class="container register">
         <div class="row">
             
