@@ -96,7 +96,7 @@ export default function Navbar({ fixed }) {
                                 </a>
                                 </Link>
                             </li>                          
-                          <a href="https://appalumni-4842d.web.app/" target="_blank" rel="noreferrer">
+                          <a href="https://alumni-2-0.vercel.app/form" target="_blank" rel="noreferrer">
                             <li className="nav-item">
                                 <button type="button" className=" my-4 lg:ml-3 lg:my-0 py-2 px-4 bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-400 hoever:to-blue-500  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md   rounded-lg ">
                                     Get Involved

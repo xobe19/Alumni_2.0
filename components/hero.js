@@ -52,7 +52,7 @@ const Hero = ({
           </div>
         </div>
           <div className="flex justify-end w-full py-10">
-            <a href="https://appalumni-4842d.web.app/" target="_blank" rel="noreferrer">
+            <a href="https://alumni-2-0.vercel.app/form" target="_blank" rel="noreferrer">
           <ButtonPrimary>Get Started </ButtonPrimary>
             </a>
           </div>
