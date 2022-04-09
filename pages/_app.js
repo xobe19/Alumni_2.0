@@ -5,9 +5,12 @@ import Script from 'next/script'
 import Head from 'next/head'
 import NextNProgress from 'nextjs-progressbar'
 import ScrollToTop from 'react-scroll-to-top'
+import { useRouter } from 'next/router'
 function MyApp({ Component, pageProps }) {
+  let router = useRouter();
 console.log(pageProps);
-  return <Fragment>
+
+  return router.pathname != '/form' ? (<Fragment>
     <Head> 
     <title>
     CVR Alumni 
@@ -16,11 +19,11 @@ console.log(pageProps);
     <div className='bg-white'>
     <Script src="https://kit.fontawesome.com/ce6e920b0f.js"></Script>
 <NextNProgress height={3} color="cyan" />
-    <Navbar />
+<Navbar/>
     <Component {...pageProps} />
    <ScrollToTop smooth style={{width: "auto", height: "auto", padding: "7px"}}/> 
     </div>
-  </Fragment>
+  </Fragment>) : (<Component {...pageProps} />)
 }
 
 export default MyApp

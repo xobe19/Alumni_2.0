@@ -56,18 +56,7 @@ export default function Navbar({ fixed }) {
                                     {/* <span className="ml-2">Alumni Engagement</span> */}
                                 </a>
                             </li>
-                            <li className="nav-item"
-                            onClick={() => setNavbarOpen(!navbarOpen)}
-                            >
-                                <Link href="/reunion">
-                                <a
-                                    className="px-3 py-2 my-2 lg:m-0 flex items-center lg:text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                                    href="#pablo"
-                                >
-                                    <span className="ml-2">Events</span>
-                                </a>
-                                </Link>
-                            </li>
+                            
   <li className="nav-item"
                             onClick={() => setNavbarOpen(!navbarOpen)}
   >

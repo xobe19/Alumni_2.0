@@ -8,7 +8,7 @@ export default function Bos() {
           Alumni in BoS &amp; IQAC →
         </span>
       </div>
-      <div className=" p-5 lg:w-2/3 mx-auto">
+      <div className=" p-5 lg:w-5/12 mx-auto">
         {bos_data.map((data, indx) => {
           return (
             <div

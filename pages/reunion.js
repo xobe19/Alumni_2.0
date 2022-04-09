@@ -99,6 +99,40 @@ placeholder="blur"
             })}
           </div>
         </div>
+    <div className="py-4 flex justify-center">
+        <div className="w-10/12 border-t border-gray-300"></div>
+      </div>
+      <div className="text-5xl font-extrabold text-center   p-5 ">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">
+          Video Gallery&rarr;
+        </span>
+      </div>
+      </section>
+        <section className="overflow-hidden text-gray-700 ">
+        <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+          <div className="flex flex-wrap -m-1 md:-m-2 justify-center items-center">
+<div className="p-5">
+
+            <iframe src="https://player.vimeo.com/video/697592326?h=689804a2b6?portrait=false&byline=false&title=false" width={500} height={500} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div className="p-5">
+
+            <iframe src="https://player.vimeo.com/video/697592350?h=689804a2b6?portrait=false&byline=false&title=false" width="500" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div className="p-5">
+
+            <iframe src="https://player.vimeo.com/video/697591892?h=689804a2b6?portrait=false&byline=false&title=false" width="500" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div className="p-5">
+
+            <iframe src="https://player.vimeo.com/video/697592383?h=689804a2b6?portrait=false&byline=false&title=false" width={500} height={500} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+            
+
+
+                      </div>
+        </div>
       </section>
         </Fragment>
   );

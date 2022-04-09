@@ -11,13 +11,13 @@ export default function Bos() {
           Product Exhibits By Alumni &rarr;
         </span>
       </div>
-      <div className=" p-5 lg:w-11/12 mx-auto">
+      <div className=" p-5 lg:w-7/12 mx-auto">
         {aixcellence_data.map((data, indx) => {
           return (
             <div
               className={
-                "flex my-7 justify-center" +
-                (indx & 1 ? " lg:justify-end" : " lg:justify-start")
+                " my-7 justify-center mx-auto flex" +
+                (indx & 1 ? " lg:justify-start" : " lg:justify-start")
               }
               key={data.name}
             >
