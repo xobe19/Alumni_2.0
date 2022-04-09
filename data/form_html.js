@@ -128,7 +128,7 @@ const form_html = `
  
   </style>
 <div background id="body">
-<div class="wpb_wrapper" style="color: white; text-align: center; font-size: 20px;">
+<div class="wpb_wrapper" style="padding: 30px;color: white; text-align: center; font-size: 20px; ">
 			<p>Hey There !!!</p>
 <p>It’s said that our lives are basically made up of memories, memories that stir emotions, Invoke nostalgia, melancholy, Happiness, and Joy&#8230;</p>
 <p>I have been witness to this all,<br />
