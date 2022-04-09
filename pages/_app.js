@@ -13,7 +13,7 @@ console.log(pageProps);
   return router.pathname != '/form' ? (<Fragment>
     <Head> 
     <title>
-    CVR Alumni 
+    CVRCE Alumni 
       </title>
   </Head>
     <div className='bg-white'>

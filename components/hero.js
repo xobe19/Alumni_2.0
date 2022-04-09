@@ -40,7 +40,7 @@ const Hero = ({
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-light text-black-600 leading-normal text-left md:text-right w-full">
             Welcome to 
           </h1>
-<strong className="text-4xl lg:text-5xl xl:text-6xl  text-black-600 sm:leading-normal sm:font-bold md:text-right">CVR Alumni Network </strong>
+<strong className="text-4xl lg:text-5xl xl:text-6xl  text-black-600 sm:leading-normal sm:font-bold md:text-right">CVRCE Alumni Network </strong>
     <div className="w-full justify-center items-center md:hidden flex">
           <div className="w-full ">
             <Image
