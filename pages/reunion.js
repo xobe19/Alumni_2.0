@@ -113,20 +113,20 @@ placeholder="blur"
           <div className="flex flex-wrap -m-1 md:-m-2 justify-center items-center">
 <div className="p-5">
 
-            <iframe src="https://player.vimeo.com/video/697592326?h=689804a2b6?portrait=false&byline=false&title=false" width={500} height={500} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/697592326?h=689804a2b6?portrait=false&byline=false&title=false" width={500} height={500} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 </div>
 
 <div className="p-5">
 
-            <iframe src="https://player.vimeo.com/video/697592350?h=689804a2b6?portrait=false&byline=false&title=false" width="500" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/697592350?h=689804a2b6?portrait=false&byline=false&title=false" width="500" height="500" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 </div>
 <div className="p-5">
 
-            <iframe src="https://player.vimeo.com/video/697591892?h=689804a2b6?portrait=false&byline=false&title=false" width="500" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/697591892?h=689804a2b6?portrait=false&byline=false&title=false" width="500" height="500" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 </div>
 <div className="p-5">
 
-            <iframe src="https://player.vimeo.com/video/697592383?h=689804a2b6?portrait=false&byline=false&title=false" width={500} height={500} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/697592383?h=689804a2b6?portrait=false&byline=false&title=false" width={500} height={500} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 </div>
             
 
