@@ -21,7 +21,7 @@ return (
 
 {college_reunion_data.map((e) => {
 return (
-    <div>
+    <div key={e}>
     
 <img src={e}/>
     </div>
